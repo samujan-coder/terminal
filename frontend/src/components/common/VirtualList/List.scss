@@ -1,0 +1,11 @@
+.list_main {
+  overflow-y: scroll;
+
+  .rows_main {
+    position: relative;
+  }
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}

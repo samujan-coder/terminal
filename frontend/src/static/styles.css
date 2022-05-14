@@ -1,0 +1,42 @@
+*, button, input {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+html {
+    background-color: #262626;
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+/* for login buttons */
+.is-blue {
+    background: #45B4DC !important;
+}
+
+.tabs p {
+    align-items: center;
+    border-bottom-color: #dbdbdb;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -1px;
+    padding: 0.5em 1em;
+    vertical-align: top;
+}
+
+.tabs li.is-active p {
+    border-bottom-color: #485fc7;
+    color: #485fc7;
+}
